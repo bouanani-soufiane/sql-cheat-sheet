@@ -321,21 +321,3 @@ SET PASSWORD = OLD_PASSWORD('new_pass');
 DROP USER 'user'@'host';
 ```
 
-## MAIN DATA TYPES
-
-- TINYINT (1o: -128 to +127)
-- SMALLINT (2o: +-65 000)
-- MEDIUMINT (3o: +-16 000 000)
-- INT (4o: +- 2 000 000 000)
-- BIGINT (8o: +-9.10^18)
-- FLOAT(M,D)
-- DOUBLE(M,D)
-- FLOAT(D=0->53)
-- TIME (HH:MM)
-- YEAR (AAAA)
-- DATE (AAAA-MM-JJ)
-- DATETIME (AAAA-MM-JJ HH:MM; années 1000->9999)
-- TIMESTAMP (like DATETIME, but 1970->2038, compatible with Unix)
-- VARCHAR (single-line; explicit size)
-- TEXT (multi-lines; max size=65535)
-- BLOB (binary; max size=65535)
